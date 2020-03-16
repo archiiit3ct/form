@@ -26,7 +26,7 @@
                     </div>
                     <div class="form__field">
                         <input class="form__input" type="email" name="email" 
-                        pattern="^([a-zA-Z0-9_\.-]+)@([a-z0-9_\.-]+)\.([a-z0-9_\.-]+)$" 
+                        pattern="^([A-Za-z]{1}[A-Za-z0-9]+([._-]{1})?[A-Za-z0-9]+)@([A-Za-z]+)\.\w{2,5}" 
                         placeholder="E-Mail" required />
                         <span class="form__error">e-mail в формате: students-yandex@yandex.ru</span>
                     </div>
@@ -49,3 +49,7 @@
     </main>     
 </body>
 </html>
+
+<!--
+    ^([a-zA-Z0-9_\.-]+)@([a-z0-9_\.-]+)\.([a-z0-9_\.-]+)$
+-->
