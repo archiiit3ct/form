@@ -26,14 +26,14 @@
                     </div>
                     <div class="form__field">
                         <input class="form__input" type="email" name="email" 
-                        pattern="^([a-z0-9_\.-]+)@([a-z0-9_\.-]+)\.([a-z0-9_\.-]+)$" 
+                        pattern="^([a-zA-Z0-9_\.-]+)@([a-z0-9_\.-]+)\.([a-z0-9_\.-]+)$" 
                         placeholder="E-Mail" required />
                         <span class="form__error">e-mail в формате: students-yandex@yandex.ru</span>
                     </div>
                     <div class="form__field">
                         <input class="form__input" type="text" name="tel" placeholder="Телефон" 
-                        pattern="^((8|\+7)[\s]?)(\(?\d{3}\)?[- ]?)?[\d\- ]{7,10}$" 
-                        minlength="18" maxlength="18"  required/>
+                        pattern="^((8|\+7)[\s]?)(\(?\d{3}\)?[-\s]?)?[\d\-\s]{7,10}$" 
+                        minlength="11" maxlength="18"  required/>
                         <span class="form__error">телефон в формате: +7 (900) 000-00-00</span>
                     </div>
                     <div class="form__field">
